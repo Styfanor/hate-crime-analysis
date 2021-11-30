@@ -103,52 +103,8 @@
       margin-bottom: -15px;
     }
   </style>
-
-  <script>
-    function hideall() {
-      var all = document.getElementById("all");
-      var motiv = document.getElementById("motiv");
-      var typ = document.getElementById("typ");
-      var wep = document.getElementById("weapon");
-      var susrace = document.getElementById("susrace");
-      var sussex = document.getElementById("sussex");
-      var vicrace = document.getElementById("vicrace");
-      var vicsex = document.getElementById("vicsex");
-      all.style.display = "none";
-      motiv.style.display = "none";
-      typ.style.display = "none";
-      wep.style.display = "none";
-      susrace.style.display = "none";
-      sussex.style.display = "none";
-      vicrace.style.display = "none";
-      vicsex.style.display = "none";
-    }
-
-    function myFunction(id) {
-      var x = document.getElementById(id);
-      hideall();
-      x.style.display = "block";
-    }
-  </script>
-
+  
   <div class="page-section">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-auto py-3 wow fadeInUp">
-          <button onclick="myFunction('all')" class="btn btn-primary">Hate Crimes</button>
-          <button onclick="myFunction('motiv')" class="btn btn-primary">Motivation</button>
-          <button onclick="myFunction('typ')" class="btn btn-primary">Type of Crime</button>
-          <button onclick="myFunction('weapon')" class="btn btn-primary">Weapon Used</button>
-        </div>
-        <div class="col-lg-auto py-3 wow fadeInUp">
-          <button onclick="myFunction('susrace')" class="btn btn-primary">Suspect Race</button>
-          <button onclick="myFunction('sussex')" class="btn btn-primary">Suspect Sex</button>
-          <button onclick="myFunction('vicrace')" class="btn btn-primary">Victim Race</button>
-          <button onclick="myFunction('vicsex')" class="btn btn-primary">Victim Sex</button>
-        </div>
-      </div>
-    </div> <!-- .container -->
-
     <div class="container" id="all" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
@@ -173,7 +129,7 @@
       </div>
     </div> <!-- .container -->
 
-    <div class="container" id="motiv" style="display: none;">
+    <div class="container" id="motiv" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
@@ -198,7 +154,7 @@
       </div>
     </div> <!-- .container -->
 
-    <div class="container" id="typ" style="display: none;">
+    <div class="container" id="typ" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <span class="subhead">Dataset by DataSD</span>
@@ -222,7 +178,7 @@
       </div>
     </div> <!-- .container -->
 
-    <div class="container" id="weapon" style="display: none;">
+    <div class="container" id="weapon" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
@@ -247,7 +203,7 @@
       </div>
     </div> <!-- .container -->
 
-    <div class="container" id="susrace" style="display: none;">
+    <div class="container" id="susrace" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <span class="subhead">Dataset by DataSD</span>
@@ -271,7 +227,7 @@
       </div>
     </div> <!-- .container -->
 
-    <div class="container" id="sussex" style="display: none;">
+    <div class="container" id="sussex" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
@@ -296,7 +252,7 @@
       </div>
     </div> <!-- .container -->
 
-    <div class="container" id="vicrace" style="display: none;">
+    <div class="container" id="vicrace" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <span class="subhead">Dataset by DataSD</span>
@@ -320,7 +276,7 @@
       </div>
     </div> <!-- .container -->
 
-    <div class="container" id="vicsex" style="display: none;">
+    <div class="container" id="vicsex" style="display: block;">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
